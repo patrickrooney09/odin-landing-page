@@ -70,7 +70,9 @@ button{
 }
 .title img{
     background-color: grey;
-    flex: 1 1 0%;
+    flex: 0 1 0%;
+    height: 250px;
+    width:400px;
 }
 .middle{
     display:flex;
@@ -78,6 +80,8 @@ button{
     align-items: center;
     padding-top: 40px;
     background-color: #F9FAF8;
+    
+    
 }
 .info-header-text{
     font-size: 36px;
@@ -87,6 +91,8 @@ button{
     display:flex;
     padding:50px;
     gap: 20px;
+    flex-wrap: wrap;
+    
 }
 .image-and-text{
     display:flex;
@@ -98,9 +104,10 @@ button{
 .image-and-text img{
     border:2px solid #3882F6;
     border-radius: 20px;
-    height:150px;
-    width: 150px;
-    flex-grow: 1;
+    height:250px;
+    width:250px;
+    flex: 1 0 0%;
+    
 }
 .middle-text{
     text-align: center;
